@@ -1,0 +1,50 @@
+body{
+    background-color: yellow;
+}
+h1{
+    color: blueviolet;
+    background-color: cornsilk;
+}
+
+#show_sketch{
+    float: right;
+
+}
+#sketch_name{
+    color: red;
+
+}
+
+p, spam{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#score{
+    font-size: 35px;
+    margin-left: 20px;
+}
+#time{
+    font-size: 35px;
+    float: right;
+    margin-right: 20px;
+}
+
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes example {
+    from{box-shadow: 5px 5px 38px red;}
+    to{box-shadow: 5px 5px 38px blue;}
+    
+}
+
